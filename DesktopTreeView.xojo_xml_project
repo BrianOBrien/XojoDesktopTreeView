@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RBProject version="2025r2.1" FormatVersion="2" MinIDEVersion="20210300">
+<block type="Project" ID="0">
+ <ProjectSavedInVers>2025.021</ProjectSavedInVers>
+ <IDEVersion>20250201</IDEVersion>
+ <MajorVersion>1</MajorVersion>
+ <MinorVersion>0</MinorVersion>
+ <SubVersion>0</SubVersion>
+ <Release>0</Release>
+ <NonRelease>0</NonRelease>
+ <Region></Region>
+ <ShortVersion></ShortVersion>
+ <LongVersion></LongVersion>
+ <InfoVersion></InfoVersion>
+ <AutoIncVersion>0</AutoIncVersion>
+ <DefaultViewID>1605220351</DefaultViewID>
+ <ProjectType>0</ProjectType>
+ <DefaultLanguage>0</DefaultLanguage>
+ <CurrentLanguage>0</CurrentLanguage>
+ <DefaultEncoding>0</DefaultEncoding>
+ <BuildFlags>18688</BuildFlags>
+ <UseBuildsFolder>1</UseBuildsFolder>
+ <WebApp>0</WebApp>
+ <Icon>
+ </Icon>
+ <MacCreator></MacCreator>
+ <BuildCarbonMachOName>DesktopTreeView</BuildCarbonMachOName>
+ <BundleIdentifier>com.bender.desktoptreeview</BundleIdentifier>
+ <WinMDICaption></WinMDICaption>
+ <BuildWinName>DesktopTreeView.exe</BuildWinName>
+ <BuildWinMDI>0</BuildWinMDI>
+ <BuildWinCompanyName>Bender</BuildWinCompanyName>
+ <BuildWinProductName></BuildWinProductName>
+ <BuildWinInternalName></BuildWinInternalName>
+ <BuildWinFileDescription></BuildWinFileDescription>
+ <UseGDIPlus>0</UseGDIPlus>
+ <HiDPI>1</HiDPI>
+ <DarkMode>1</DarkMode>
+ <BuildLinuxX86Name>DesktopTreeView</BuildLinuxX86Name>
+ <DebuggerCommandLine></DebuggerCommandLine>
+ <LinuxArchitecture>3</LinuxArchitecture>
+ <MacArchitecture>4</MacArchitecture>
+ <WindowsArchitecture>1</WindowsArchitecture>
+ <OptimizationLevel>0</OptimizationLevel>
+ <NormalizeControlSizes>1</NormalizeControlSizes>
+ <CopyWindowsRedist>0</CopyWindowsRedist>
+ <IncludePDB>0</IncludePDB>
+ <WinUIFramework>0</WinUIFramework>
+ <WindowsVersions></WindowsVersions>
+ <WindowsRunAs>0</WindowsRunAs>
+ <MacMinimumVersion></MacMinimumVersion>
+ <PlistEntries></PlistEntries>
+ <MASCategory></MASCategory>
+ <AppSpecificPassword></AppSpecificPassword>
+</block>
+<block type="Module" ID="944408575">
+ <ObjName>App</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>DesktopApplication</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <IsApplicationObject>1</IsApplicationObject>
+ <Compatibility></Compatibility>
+ <PropertyVal Name="MenuBar">1819977727</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowAutoQuit</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowHiDPI</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BugVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Copyright</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Description</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LastWindowIndex</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MajorVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinorVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>NonReleaseVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>RegionCode</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>StageCode</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Version</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>string</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>_CurrentEventTime</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ProcessID</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <Constant>
+  <ItemName>kFileQuitShortcut</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1646176255</PartID>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef></ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>1</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>Cmd+Q</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>5</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>Ctrl+Q</ItemDef>
+  </ConstantInstance>
+ </Constant>
+ <Constant>
+  <ItemName>kFileQuit</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2022895615</PartID>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef>&amp;Quit</ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>2</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>E&amp;xit</ItemDef>
+  </ConstantInstance>
+ </Constant>
+ <Constant>
+  <ItemName>kEditClear</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1663926271</PartID>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef>&amp;Delete</ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>2</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>&amp;Delete</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>5</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>&amp;Delete</ItemDef>
+  </ConstantInstance>
+ </Constant>
+</block>
+<block type="DesktopWindow" ID="1605220351">
+ <ObjName>DTTreeViewDemo</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>DesktopWindow</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <HookInstance>
+  <ItemName>Opening</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1220235263</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Opening()</SourceLine>
+   <SourceLine>//Var json As String = _</SourceLine>
+   <SourceLine>//"{""Patient"":[{""PatientID"":""P001"",""Study"":[{""Desc"":""CT""}]}]}"</SourceLine>
+   <SourceLine>//DesktopTreeView1.LoadFromJSON(json, "Root") // use your instance name</SourceLine>
+   <SourceLine>BuildAndLoadBigTree</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <Method>
+  <ItemName>BuildAndLoadBigTree</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1418356735</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub BuildAndLoadBigTree()</SourceLine>
+   <SourceLine>// Build a big nested structure safely (Dictionary + Variant arrays)</SourceLine>
+   <SourceLine>Var root As New Dictionary</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// System branch</SourceLine>
+   <SourceLine>Var sys As New Dictionary</SourceLine>
+   <SourceLine>sys.Value("Host") = "piFiveAlive"</SourceLine>
+   <SourceLine>Var os As New Dictionary</SourceLine>
+   <SourceLine>os.Value("Name") = "Debian"</SourceLine>
+   <SourceLine>os.Value("Version") = "13"</SourceLine>
+   <SourceLine>os.Value("Arch") = "arm64"</SourceLine>
+   <SourceLine>sys.Value("OS") = os</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var net As New Dictionary</SourceLine>
+   <SourceLine>Var ifaces() As Variant</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var eth0 As New Dictionary</SourceLine>
+   <SourceLine>eth0.Value("Name") = "eth0"</SourceLine>
+   <SourceLine>eth0.Value("IPv4") = "192.168.1.50"</SourceLine>
+   <SourceLine>eth0.Value("MAC") = "B8:27:EB:12:34:56"</SourceLine>
+   <SourceLine>Var routes() As Variant</SourceLine>
+   <SourceLine>Var r0 As New Dictionary</SourceLine>
+   <SourceLine>r0.Value("Dest") = "0.0.0.0/0"</SourceLine>
+   <SourceLine>r0.Value("GW") = "192.168.1.1"</SourceLine>
+   <SourceLine>routes.Add(r0)</SourceLine>
+   <SourceLine>eth0.Value("Routes") = routes</SourceLine>
+   <SourceLine>ifaces.Add(eth0)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var wlan0 As New Dictionary</SourceLine>
+   <SourceLine>wlan0.Value("Name") = "wlan0"</SourceLine>
+   <SourceLine>wlan0.Value("IPv4") = "192.168.1.77"</SourceLine>
+   <SourceLine>wlan0.Value("MAC") = "DC:A6:32:AA:BB:CC"</SourceLine>
+   <SourceLine>wlan0.Value("SSID") = "LabNet"</SourceLine>
+   <SourceLine>ifaces.Add(wlan0)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>net.Value("Interfaces") = ifaces</SourceLine>
+   <SourceLine>sys.Value("Network") = net</SourceLine>
+   <SourceLine>root.Value("System") = sys</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// DICOM-ish branch (deep nesting)</SourceLine>
+   <SourceLine>Var dicom As New Dictionary</SourceLine>
+   <SourceLine>dicom.Value("AET") = "MWLSCP"</SourceLine>
+   <SourceLine>dicom.Value("Port") = 104</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var ts() As Variant</SourceLine>
+   <SourceLine>ts.Add("1.2.840.10008.1.2")</SourceLine>
+   <SourceLine>ts.Add("1.2.840.10008.1.2.1")</SourceLine>
+   <SourceLine>ts.Add("1.2.840.10008.1.2.2")</SourceLine>
+   <SourceLine>dicom.Value("TransferSyntaxes") = ts</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var peers() As Variant</SourceLine>
+   <SourceLine>Var p1 As New Dictionary</SourceLine>
+   <SourceLine>p1.Value("AET") = "MODALITY1"</SourceLine>
+   <SourceLine>p1.Value("Host") = "192.168.1.120"</SourceLine>
+   <SourceLine>p1.Value("Port") = 104</SourceLine>
+   <SourceLine>Var p1svc() As Variant</SourceLine>
+   <SourceLine>p1svc.Add("MWL")</SourceLine>
+   <SourceLine>p1svc.Add("MPPS")</SourceLine>
+   <SourceLine>p1.Value("Services") = p1svc</SourceLine>
+   <SourceLine>peers.Add(p1)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var p2 As New Dictionary</SourceLine>
+   <SourceLine>p2.Value("AET") = "PACS1"</SourceLine>
+   <SourceLine>p2.Value("Host") = "192.168.1.10"</SourceLine>
+   <SourceLine>p2.Value("Port") = 11112</SourceLine>
+   <SourceLine>Var p2svc() As Variant</SourceLine>
+   <SourceLine>p2svc.Add("CSTORE")</SourceLine>
+   <SourceLine>p2svc.Add("CFIND")</SourceLine>
+   <SourceLine>p2svc.Add("CMOVE")</SourceLine>
+   <SourceLine>p2.Value("Services") = p2svc</SourceLine>
+   <SourceLine>peers.Add(p2)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>dicom.Value("Peers") = peers</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Patients -&gt; Studies -&gt; Series -&gt; Instances -&gt; Frames</SourceLine>
+   <SourceLine>Var patients() As Variant</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>For patientIndex As Integer = 1 To 5</SourceLine>
+   <SourceLine>Var pat As New Dictionary</SourceLine>
+   <SourceLine>pat.Value("PatientID") = "P" + patientIndex.ToString("000")</SourceLine>
+   <SourceLine>pat.Value("PatientName") = If(patientIndex Mod 2 = 0, "Bob^^^", "Alice^^^")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var studies() As Variant</SourceLine>
+   <SourceLine>For studyIndex As Integer = 1 To 3</SourceLine>
+   <SourceLine>Var study As New Dictionary</SourceLine>
+   <SourceLine>study.Value("StudyInstanceUID") = "1.2.3.4." + patientIndex.ToString + "." + studyIndex.ToString</SourceLine>
+   <SourceLine>study.Value("StudyDescription") = "Study " + studyIndex.ToString</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var seriesList() As Variant</SourceLine>
+   <SourceLine>For seriesIndex As Integer = 1 To 3</SourceLine>
+   <SourceLine>Var series As New Dictionary</SourceLine>
+   <SourceLine>series.Value("SeriesInstanceUID") = "1.2.3.4." + patientIndex.ToString + "." + studyIndex.ToString + "." + seriesIndex.ToString</SourceLine>
+   <SourceLine>series.Value("Modality") = If(seriesIndex Mod 2 = 0, "CT", "CR")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var instances() As Variant</SourceLine>
+   <SourceLine>For instIndex As Integer = 1 To 5</SourceLine>
+   <SourceLine>Var inst As New Dictionary</SourceLine>
+   <SourceLine>inst.Value("SOPInstanceUID") = series.Value("SeriesInstanceUID").StringValue + "." + instIndex.ToString</SourceLine>
+   <SourceLine>inst.Value("InstanceNumber") = instIndex</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var frames() As Variant</SourceLine>
+   <SourceLine>For frameIndex As Integer = 1 To 3</SourceLine>
+   <SourceLine>Var fr As New Dictionary</SourceLine>
+   <SourceLine>fr.Value("Frame") = frameIndex</SourceLine>
+   <SourceLine>fr.Value("Checksum") = "chk-" + patientIndex.ToString + "-" + studyIndex.ToString + "-" + seriesIndex.ToString + "-" + instIndex.ToString + "-" + frameIndex.ToString</SourceLine>
+   <SourceLine>frames.Add(fr)</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine>inst.Value("Frames") = frames</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>instances.Add(inst)</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>series.Value("Instances") = instances</SourceLine>
+   <SourceLine>seriesList.Add(series)</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>study.Value("Series") = seriesList</SourceLine>
+   <SourceLine>studies.Add(study)</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>pat.Value("Studies") = studies</SourceLine>
+   <SourceLine>patients.Add(pat)</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>dicom.Value("Patients") = patients</SourceLine>
+   <SourceLine>root.Value("DICOM") = dicom</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Load directly (no JSON parsing)</SourceLine>
+   <SourceLine>DesktopTreeView1.LoadFromDictionary(root, "Root")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// If you also want to SEE the JSON:</SourceLine>
+   <SourceLine>// Var json As String = GenerateJSON(root)</SourceLine>
+   <SourceLine>// System.DebugLog(json)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>33</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <PropertyVal Name="MenuBarVisible">False</PropertyVal>
+ <PropertyVal Name="MenuBar">1819977727</PropertyVal>
+ <PropertyVal Name="Backdrop">0</PropertyVal>
+ <PropertyVal Name="BackgroundColor">&amp;cFFFFFF</PropertyVal>
+ <PropertyVal Name="HasBackgroundColor">False</PropertyVal>
+ <PropertyVal Name="ImplicitInstance">True</PropertyVal>
+ <PropertyVal Name="Visible">True</PropertyVal>
+ <PropertyVal Name="DefaultLocation">2</PropertyVal>
+ <PropertyVal Name="FullScreen">False</PropertyVal>
+ <PropertyVal Name="MacProcID">0</PropertyVal>
+ <PropertyVal Name="Composite">False</PropertyVal>
+ <PropertyVal Name="Resizeable">True</PropertyVal>
+ <PropertyVal Name="HasTitleBar">True</PropertyVal>
+ <PropertyVal Name="HasFullScreenButton">False</PropertyVal>
+ <PropertyVal Name="HasMinimizeButton">True</PropertyVal>
+ <PropertyVal Name="HasMaximizeButton">True</PropertyVal>
+ <PropertyVal Name="HasCloseButton">True</PropertyVal>
+ <PropertyVal Name="Title">Desktop Tree View</PropertyVal>
+ <PropertyVal Name="Type">0</PropertyVal>
+ <PropertyVal Name="MaximumHeight">32000</PropertyVal>
+ <PropertyVal Name="MaximumWidth">32000</PropertyVal>
+ <PropertyVal Name="MinimumHeight">64</PropertyVal>
+ <PropertyVal Name="MinimumWidth">64</PropertyVal>
+ <PropertyVal Name="Height">400</PropertyVal>
+ <PropertyVal Name="Width">600</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Interfaces</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>600</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>400</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinimumWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinimumHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaximumWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaximumHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Type</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Types</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Document</ItemDef>
+    <ItemDef>1 - Movable Modal</ItemDef>
+    <ItemDef>2 - Modal Dialog</ItemDef>
+    <ItemDef>3 - Floating Window</ItemDef>
+    <ItemDef>4 - Plain Box</ItemDef>
+    <ItemDef>5 - Shadowed Box</ItemDef>
+    <ItemDef>6 - Rounded Window</ItemDef>
+    <ItemDef>7 - Global Floating Window</ItemDef>
+    <ItemDef>8 - Sheet Window</ItemDef>
+    <ItemDef>9 - Modeless Dialog</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Title</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>Untitled</PropertyValue>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasCloseButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasMaximizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasMinimizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasFullScreenButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasTitleBar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Resizeable</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Composite</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MacProcID</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FullScreen</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DefaultLocation</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>2</PropertyValue>
+   <ItemType>Locations</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - Parent Window</ItemDef>
+    <ItemDef>2 - Main Screen</ItemDef>
+    <ItemDef>3 - Parent Window Screen</ItemDef>
+    <ItemDef>4 - Stagger</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ImplicitInstance</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Window Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBackgroundColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BackgroundColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>&amp;cFFFFFF</PropertyValue>
+   <ItemType>ColorGroup</ItemType>
+   <EditorType>ColorGroup</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Backdrop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <ItemType>Picture</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Menus</PropertyGroup>
+   <ItemType>DesktopMenuBar</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBarVisible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Deprecated</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <ControlBehavior>
+  <Superclass>DesktopTreeView</Superclass>
+ </ControlBehavior>
+ <Control>
+  <ControlClass>DesktopTreeView</ControlClass>
+  <ItemName>DesktopTreeView</ItemName>
+  <PropertyVal Name="AllowAutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="AllowFocus">False</PropertyVal>
+  <PropertyVal Name="AllowFocusRing">False</PropertyVal>
+  <PropertyVal Name="AllowTabs">True</PropertyVal>
+  <PropertyVal Name="Backdrop">0</PropertyVal>
+  <PropertyVal Name="BackgroundColor">&amp;hFFFFFF</PropertyVal>
+  <PropertyVal Name="Composited">False</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="HasBackgroundColor">False</PropertyVal>
+  <PropertyVal Name="Height">360</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="LockBottom">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="LockRight">True</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="Name">DesktopTreeView1</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">DesktopTreeView</PropertyVal>
+  <PropertyVal Name="TabIndex">0</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="Tooltip"></PropertyVal>
+  <PropertyVal Name="Top">20</PropertyVal>
+  <PropertyVal Name="Transparent">False</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Width">560</PropertyVal>
+  <ControlIndex>0</ControlIndex>
+  <Locked>0</Locked>
+  <PartID>1026893823</PartID>
+ </Control>
+</block>
+<block type="Menu" ID="1819977727">
+ <ObjName>MainMenuBar</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>FileMenu</ItemName>
+  <ItemText>&amp;File</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>1</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>DesktopMenuItem</Superclass>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>FileQuit</ItemName>
+   <ItemText>#App.kFileQuit</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>#App.kFileQuitShortcut</ItemShortcut>
+   <MenuShortcut>#App.kFileQuitShortcut</MenuShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopQuitMenuItem</Superclass>
+  </MenuItem>
+ </MenuItem>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>EditMenu</ItemName>
+  <ItemText>&amp;Edit</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>1</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>DesktopMenuItem</Superclass>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditUndo</ItemName>
+   <ItemText>&amp;Undo</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+Z</ItemShortcut>
+   <MenuShortcut>Z</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditSeparator1</ItemName>
+   <ItemText>-</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditCut</ItemName>
+   <ItemText>Cu&amp;t</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+X</ItemShortcut>
+   <MenuShortcut>X</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditCopy</ItemName>
+   <ItemText>&amp;Copy</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+C</ItemShortcut>
+   <MenuShortcut>C</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditPaste</ItemName>
+   <ItemText>&amp;Paste</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+V</ItemShortcut>
+   <MenuShortcut>V</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditClear</ItemName>
+   <ItemText>#App.kEditClear</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditSeparator2</ItemName>
+   <ItemText>-</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditSelectAll</ItemName>
+   <ItemText>Select &amp;All</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+A</ItemShortcut>
+   <MenuShortcut>A</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>DesktopMenuItem</Superclass>
+  </MenuItem>
+ </MenuItem>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>WindowMenu</ItemName>
+  <ItemText>Window</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>1</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>DesktopMenuItem</Superclass>
+ </MenuItem>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>HelpMenu</ItemName>
+  <ItemText>&amp;Help</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>1</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>DesktopMenuItem</Superclass>
+ </MenuItem>
+</block>
+<block type="BuildAutomation" ID="1846200319">
+ <ObjName>Build Automation</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="116002815">
+ <ObjName>Linux</ObjName>
+ <ObjContainerID>1846200319</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="586100735">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>116002815</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="1493487615">
+ <ObjName>Mac OS X</ObjName>
+ <ObjContainerID>1846200319</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="783849471">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>1493487615</ObjContainerID>
+</block>
+<block type="SignProjectScriptStep" ID="516290559">
+ <ObjName>Sign</ObjName>
+ <ObjContainerID>1493487615</ObjContainerID>
+ <DeveloperID></DeveloperID>
+ <macOSEntitlements>{"App Sandbox":"False","Hardened Runtime":"False","Notarize":"False","UserEntitlements":""}</macOSEntitlements>
+</block>
+<block type="BuildStepsList" ID="1066266623">
+ <ObjName>Windows</ObjName>
+ <ObjContainerID>1846200319</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="2010613759">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>1066266623</ObjContainerID>
+</block>
+<block type="DesktopWindow" ID="1329225727">
+ <ObjName>DesktopTreeView</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>DesktopContainer</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <HookInstance>
+  <ItemName>Opening</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>730167295</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Opening()</SourceLine>
+   <SourceLine>mExpanded = New Dictionary</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <Method>
+  <ItemName>LoadFromJSON</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2059708415</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub LoadFromJSON(jsonText As String, rootName As String = "root")</SourceLine>
+   <SourceLine>Load(TreeNodeFactory.FromJSON(jsonText, rootName))</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>jsonText As String, rootName As String = "root"</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>LoadFromDictionary</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1658224639</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub LoadFromDictionary(d As Dictionary, rootName As String = "root")</SourceLine>
+   <SourceLine>Load(TreeNodeFactory.FromDictionary(d, rootName))</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>d As Dictionary, rootName As String = "root"</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Load</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1179518975</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Load(root As TreeNode)</SourceLine>
+   <SourceLine>mRoot = root</SourceLine>
+   <SourceLine>If mRoot Is Nil Then Return</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Expand root by default (once)</SourceLine>
+   <SourceLine>If Not mExpanded.HasKey(mRoot.Path) Then</SourceLine>
+   <SourceLine>mExpanded.Value(mRoot.Path) = True</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Rebuild</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>root As TreeNode</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Rebuild</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>866039807</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Rebuild()</SourceLine>
+   <SourceLine>mRows.RemoveAll</SourceLine>
+   <SourceLine>LB.RemoveAllRows</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Flatten(mRoot, 0)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>For Each r As RowInfo In mRows</SourceLine>
+   <SourceLine>LB.AddRow("") // drawn manually later</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>LB.Refresh</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>33</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Flatten</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>647665663</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Flatten(n As TreeNode, depth As Integer)</SourceLine>
+   <SourceLine>Var r As New RowInfo</SourceLine>
+   <SourceLine>r.Node = n</SourceLine>
+   <SourceLine>r.Depth = depth</SourceLine>
+   <SourceLine>r.HasChildren = n.HasChildren</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If r.HasChildren Then</SourceLine>
+   <SourceLine>If mExpanded.HasKey(n.Path) Then</SourceLine>
+   <SourceLine>r.Expanded = mExpanded.Value(n.Path).BooleanValue</SourceLine>
+   <SourceLine>Else</SourceLine>
+   <SourceLine>r.Expanded = False</SourceLine>
+   <SourceLine>mExpanded.Value(n.Path) = False</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>mRows.Add(r)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If r.HasChildren And r.Expanded Then</SourceLine>
+   <SourceLine>For Each c As TreeNode In n.Children</SourceLine>
+   <SourceLine>Flatten(c, depth + 1)</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>33</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>n As TreeNode, depth As Integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>PaintCellText</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>289687551</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function PaintCellText(g As Graphics, row As Integer, column As Integer, x As Integer, y As Integer) As Boolean</SourceLine>
+   <SourceLine>If row &lt; 0 Or row &gt; mRows.LastIndex Then Return False</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var r As RowInfo = mRows(row)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.FontName = "System"</SourceLine>
+   <SourceLine>g.FontSize = 13</SourceLine>
+   <SourceLine>g.DrawingColor = Color.White</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var padLeft As Integer = 6</SourceLine>
+   <SourceLine>Var indentPx As Integer = r.Depth * 16</SourceLine>
+   <SourceLine>Var drawX As Integer = x + padLeft + indentPx</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var twisty As String = If(r.HasChildren, If(r.Expanded, "▼ ", "▶ "), "  ")</SourceLine>
+   <SourceLine>Var label As String = If(r.HasChildren, r.Node.Name, r.Node.Name + ": " + r.Node.Value)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Var rowH As Integer = 26 // pick a safe height for Pi</SourceLine>
+   <SourceLine>Var baseY As Integer = y + ((rowH - g.TextHeight) \ 2) + g.TextAscent</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.DrawText(twisty + label, drawX, baseY)</SourceLine>
+   <SourceLine>Return True</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g As Graphics, row As Integer, column As Integer, x As Integer, y As Integer</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Hook>
+  <ItemName>NodeSelected</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>path as String</ItemParams>
+  <ItemResult></ItemResult>
+ </Hook>
+ <Property>
+  <ItemName>mRoot</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>96882687</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>mRoot As TreeNode</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>mRoot As TreeNode</ItemDeclaration>
+  <ItemFlags>33</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>mRows(-1)</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1807392767</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>mRows(-1) As RowInfo</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>mRows(-1) As RowInfo</ItemDeclaration>
+  <ItemFlags>33</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>mExpanded</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1040066559</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>mExpanded As Dictionary</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>mExpanded As Dictionary</ItemDeclaration>
+  <ItemFlags>33</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>cgText</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1478377471</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>cgText As ColorGroup</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>cgText As ColorGroup</ItemDeclaration>
+  <ItemFlags>33</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <PropertyVal Name="Composited">False</PropertyVal>
+ <PropertyVal Name="Transparent">False</PropertyVal>
+ <PropertyVal Name="AllowTabs">True</PropertyVal>
+ <PropertyVal Name="AllowFocus">False</PropertyVal>
+ <PropertyVal Name="HasBackgroundColor">False</PropertyVal>
+ <PropertyVal Name="Backdrop">0</PropertyVal>
+ <PropertyVal Name="BackgroundColor">&amp;hFFFFFF</PropertyVal>
+ <PropertyVal Name="Visible">True</PropertyVal>
+ <PropertyVal Name="AllowFocusRing">False</PropertyVal>
+ <PropertyVal Name="Tooltip"></PropertyVal>
+ <PropertyVal Name="Enabled">True</PropertyVal>
+ <PropertyVal Name="AllowAutoDeactivate">True</PropertyVal>
+ <PropertyVal Name="TabStop">True</PropertyVal>
+ <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+ <PropertyVal Name="TabIndex">0</PropertyVal>
+ <PropertyVal Name="LockBottom">False</PropertyVal>
+ <PropertyVal Name="LockRight">False</PropertyVal>
+ <PropertyVal Name="LockTop">True</PropertyVal>
+ <PropertyVal Name="LockLeft">True</PropertyVal>
+ <PropertyVal Name="Top">0</PropertyVal>
+ <PropertyVal Name="Left">0</PropertyVal>
+ <PropertyVal Name="InitialParent"></PropertyVal>
+ <PropertyVal Name="Height">300</PropertyVal>
+ <PropertyVal Name="Width">300</PropertyVal>
+ <PropertyVal Name="Index">-2147483648</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>300</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>300</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>InitialParent</ObjName>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockLeft</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockTop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockRight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockBottom</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabIndex</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabPanelIndex</ObjName>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabStop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowAutoDeactivate</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Enabled</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Tooltip</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowFocusRing</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BackgroundColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>&amp;hFFFFFF</PropertyValue>
+   <ItemType>ColorGroup</ItemType>
+   <EditorType>ColorGroup</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Backdrop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <ItemType>Picture</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBackgroundColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowFocus</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowTabs</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Transparent</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Composited</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Window Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <ControlBehavior>
+  <Superclass>DesktopListBox</Superclass>
+  <HookInstance>
+   <ItemName>PaintCellText</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>154738687</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function PaintCellText(g as Graphics, row as Integer, column as Integer, x as Integer, y as Integer) As Boolean</SourceLine>
+    <SourceLine>If row &lt; 0 Or row &gt; mRows.LastIndex Then Return False</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Var r As RowInfo = mRows(row)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>If row = LB.SelectedRowIndex Then</SourceLine>
+    <SourceLine>g.DrawingColor = TreeSelectedTextColor</SourceLine>
+    <SourceLine>Else</SourceLine>
+    <SourceLine>g.DrawingColor = TreeTextColor</SourceLine>
+    <SourceLine>End If</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Var padLeft As Integer = 6</SourceLine>
+    <SourceLine>Var indentPx As Integer = r.Depth * 16</SourceLine>
+    <SourceLine>Var drawX As Integer = x + padLeft + indentPx</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Var twisty As String = If(r.HasChildren, If(r.Expanded, "▼ ", "▶ "), "  ")</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Var label As String</SourceLine>
+    <SourceLine>If r.HasChildren Then</SourceLine>
+    <SourceLine>label = r.Node.Name</SourceLine>
+    <SourceLine>Else</SourceLine>
+    <SourceLine>label = r.Node.Name + ": " + r.Node.Value</SourceLine>
+    <SourceLine>End If</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>g.DrawText(twisty + label, drawX, y)</SourceLine>
+    <SourceLine>Return True</SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>MouseDown</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>1785759743</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function MouseDown(x As Integer, y As Integer) As Boolean</SourceLine>
+    <SourceLine>Var row As Integer = LB.RowFromXY(x, y)</SourceLine>
+    <SourceLine>If row &lt; 0 Or row &gt; mRows.LastIndex Then Return False</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Var r As RowInfo = mRows(row)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>// Toggle only if the user clicked near the "twisty" area</SourceLine>
+    <SourceLine>Var indentPx As Integer = r.Depth * 16</SourceLine>
+    <SourceLine>Var twistyLeft As Integer = indentPx</SourceLine>
+    <SourceLine>Var twistyRight As Integer = indentPx + 18</SourceLine>
+    <SourceLine>Var clickedTwisty As Boolean = (x &gt;= twistyLeft And x &lt;= twistyRight)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>If r.HasChildren And clickedTwisty Then</SourceLine>
+    <SourceLine>mExpanded.Value(r.Node.Path) = Not r.Expanded</SourceLine>
+    <SourceLine>Rebuild</SourceLine>
+    <SourceLine>End If</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>// Select row (so SelectionChanged fires + highlight updates)</SourceLine>
+    <SourceLine>LB.SelectedRowIndex = row</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>RaiseEvent NodeSelected(r.Node.Path)</SourceLine>
+    <SourceLine>Return True</SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>SelectionChanged</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>937480191</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub SelectionChanged()</SourceLine>
+    <SourceLine>LB.Refresh</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Var row As Integer = LB.SelectedRowIndex</SourceLine>
+    <SourceLine>If row &lt; 0 Or row &gt; mRows.LastIndex Then Return</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>RaiseEvent NodeSelected(mRows(row).Node.Path)</SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>PaintCellBackground</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>728817663</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function PaintCellBackground(g As Graphics, row As Integer, column As Integer) As Boolean</SourceLine>
+    <SourceLine>If row = LB.SelectedRowIndex Then</SourceLine>
+    <SourceLine>g.DrawingColor = TreeSelectedRowColor</SourceLine>
+    <SourceLine>ElseIf (row Mod 2) = 0 Then</SourceLine>
+    <SourceLine>g.DrawingColor = TreeRowEvenColor</SourceLine>
+    <SourceLine>Else</SourceLine>
+    <SourceLine>g.DrawingColor = TreeRowOddColor</SourceLine>
+    <SourceLine>End If</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>g.FillRect(0, 0, g.Width, g.Height)</SourceLine>
+    <SourceLine>Return True</SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <Control>
+  <ControlClass>DesktopListBox</ControlClass>
+  <ItemName>DesktopListBox</ItemName>
+  <PropertyVal Name="AllowAutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="AllowAutoHideScrollbars">True</PropertyVal>
+  <PropertyVal Name="AllowExpandableRows">False</PropertyVal>
+  <PropertyVal Name="AllowFocusRing">True</PropertyVal>
+  <PropertyVal Name="AllowResizableColumns">False</PropertyVal>
+  <PropertyVal Name="AllowRowDragging">False</PropertyVal>
+  <PropertyVal Name="AllowRowReordering">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="ColumnCount">1</PropertyVal>
+  <PropertyVal Name="ColumnWidths"></PropertyVal>
+  <PropertyVal Name="DefaultRowHeight">28</PropertyVal>
+  <PropertyVal Name="DropIndicatorVisible">False</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="FontName">System</PropertyVal>
+  <PropertyVal Name="FontSize">0.0</PropertyVal>
+  <PropertyVal Name="FontUnit">0</PropertyVal>
+  <PropertyVal Name="GridLineStyle">2</PropertyVal>
+  <PropertyVal Name="HasBorder">True</PropertyVal>
+  <PropertyVal Name="HasHeader">False</PropertyVal>
+  <PropertyVal Name="HasHorizontalScrollbar">False</PropertyVal>
+  <PropertyVal Name="HasVerticalScrollbar">True</PropertyVal>
+  <PropertyVal Name="HeadingIndex">-1</PropertyVal>
+  <PropertyVal Name="Height">260</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="InitialValue"></PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="LockBottom">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="LockRight">True</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="Name">LB</PropertyVal>
+  <PropertyVal Name="RequiresSelection">False</PropertyVal>
+  <PropertyVal Name="RowSelectionType">0</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">DesktopListBox</PropertyVal>
+  <PropertyVal Name="TabIndex">0</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="Tooltip"></PropertyVal>
+  <PropertyVal Name="Top">20</PropertyVal>
+  <PropertyVal Name="Transparent">False</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Width">260</PropertyVal>
+  <PropertyVal Name="_ScrollWidth">-1</PropertyVal>
+  <ControlIndex>0</ControlIndex>
+  <Locked>0</Locked>
+  <PartID>785805311</PartID>
+ </Control>
+</block>
+<block type="Module" ID="1405976575">
+ <ObjName>RowInfo</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Property>
+  <ItemName>Node</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1698330623</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Node As TreeNode</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Node As TreeNode</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>Depth</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>991668223</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Depth As Integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Depth As Integer</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>Expanded</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1242322943</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Expanded As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Expanded As Boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>HasChildren</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>378994687</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>HasChildren As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>HasChildren As Boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Node</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="193116159">
+ <ObjName>TreeNode</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>Constructor</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>302163967</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Constructor(nodeName As String, nodeValue As String = "", parentPath As String = "")</SourceLine>
+   <SourceLine>Name = nodeName</SourceLine>
+   <SourceLine>Value = nodeValue</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If parentPath = "" Then</SourceLine>
+   <SourceLine>Path = nodeName</SourceLine>
+   <SourceLine>Else</SourceLine>
+   <SourceLine>Path = parentPath + "/" + nodeName</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>nodeName As String, nodeValue As String = "", parentPath As String = ""</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>HasChildren</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1324824575</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function HasChildren() As Boolean</SourceLine>
+   <SourceLine>Return Children.Count &gt; 0</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Property>
+  <ItemName>Name</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1213286399</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Name As String</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Name As String</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>Value</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1696307199</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Value As String</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Value As String</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>Path</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1119150079</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Path As String</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Path As String</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>Children(-1)</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1002506239</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Children(-1) As TreeNode</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Children(-1) As TreeNode</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="1760063487">
+ <ObjName>TreeNodeFactory</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>0</IsClass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>FromJSON</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>12980223</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function FromJSON(jsonText As String, rootName As String = "root") As TreeNode</SourceLine>
+   <SourceLine>Var v As Variant = ParseJSON(jsonText)</SourceLine>
+   <SourceLine>Return FromVariant(rootName, v, "")</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>jsonText As String, rootName As String = "root"</ItemParams>
+  <ItemResult>TreeNode</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>FromDictionary</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1650180095</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function FromDictionary(d As Dictionary, rootName As String = "root") As TreeNode</SourceLine>
+   <SourceLine>Return FromVariant(rootName, d, "")</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>d As Dictionary, rootName As String = "root"</ItemParams>
+  <ItemResult>TreeNode</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>FromVariant</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>492965887</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function FromVariant(name As String, v As Variant, parentPath As String) As TreeNode</SourceLine>
+   <SourceLine>Var n As New TreeNode(name, "", parentPath)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If v.IsNull Then</SourceLine>
+   <SourceLine>n.Value = "null"</SourceLine>
+   <SourceLine>Return n</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If v IsA Dictionary Then</SourceLine>
+   <SourceLine>Var d As Dictionary = Dictionary(v)</SourceLine>
+   <SourceLine>For Each k As Variant In d.Keys</SourceLine>
+   <SourceLine>n.Children.Add(FromVariant(k.StringValue, d.Value(k), n.Path))</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine>Return n</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If v.IsArray Then</SourceLine>
+   <SourceLine>Var arr() As Variant = v</SourceLine>
+   <SourceLine>For i As Integer = 0 To arr.LastIndex</SourceLine>
+   <SourceLine>Var idx As String = "[" + i.ToString + "]"</SourceLine>
+   <SourceLine>n.Children.Add(FromVariant(idx, arr(i), n.Path))</SourceLine>
+   <SourceLine>Next</SourceLine>
+   <SourceLine>Return n</SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>n.Value = v.StringValue</SourceLine>
+   <SourceLine>Return n</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>name As String, v As Variant, parentPath As String</ItemParams>
+  <ItemResult>TreeNode</ItemResult>
+ </Method>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="ColorAsset" ID="373432319">
+ <ObjName>TreeTextColor</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>00000000</ColorLight>
+  <ColorDark>FFFFFF00</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="1237256191">
+ <ObjName>TreeSelectedTextColor</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>00000000</ColorLight>
+  <ColorDark>FFFFFF00</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="1992912895">
+ <ObjName>TreeRowEvenColor</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>FFFFFF00</ColorLight>
+  <ColorDark>2B2B2B00</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="1695471615">
+ <ObjName>TreeRowOddColor</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>F4F4F400</ColorLight>
+  <ColorDark>32323200</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="42258431">
+ <ObjName>TreeSelectedRowColor</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>C9BFE000</ColorLight>
+  <ColorDark>5A4F7300</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="1711785983">
+ <ObjName>TreeHoverOverRowColor</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>E6F2FF00</ColorLight>
+  <ColorDark>3A3A3A00</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="UIState" ID="0">
+ <WarningPreferences>
+  <ItemName>5</ItemName>
+  <ItemData>0</ItemData>
+  <ItemName>6</ItemName>
+  <ItemData>0</ItemData>
+  <ItemName>7</ItemName>
+  <ItemData>0</ItemData>
+  <ItemName>14</ItemName>
+  <ItemData>0</ItemData>
+  <ItemName>2</ItemName>
+  <ItemData>0</ItemData>
+  <ItemName>-2</ItemName>
+  <ItemData>0</ItemData>
+  <ItemName>16</ItemName>
+  <ItemData>0</ItemData>
+ </WarningPreferences>
+ <StudioWindowState>
+  <EditBounds><Rect left="133" top="114" width="1496" height="860"/></EditBounds>
+  <WindowMaximized>0</WindowMaximized>
+  <Editors>
+   <EditorCount>1</EditorCount>
+   <Editor>
+    <EditorIndex>0</EditorIndex>
+    <EditorLocation>DTTreeViewDemo.Controls.DesktopTreeView1</EditorLocation>
+    <EditorPath></EditorPath>
+    <EditingPartID>1605220351</EditingPartID>
+    <EditorPath></EditorPath>
+   </Editor>
+   <SelectedTab>0</SelectedTab>
+  </Editors>
+ </StudioWindowState>
+</block>
+</RBProject>

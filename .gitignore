@@ -1,0 +1,18 @@
+# ---- Xojo (general) ----
+*.xojo_uistate
+*.xojo_code
+*.xojo_report
+*.tmp
+*.log
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Windows ----
+Thumbs.db
+Desktop.ini
+
+# ---- Linux ----
+*~
+*.swp
+*.swo

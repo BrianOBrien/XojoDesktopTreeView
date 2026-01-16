@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RBProject version="2025r2.1" FormatVersion="2" MinIDEVersion="20210300">
+<RBProject version="2025r3" FormatVersion="2" MinIDEVersion="20210300">
 <block type="Project" ID="0">
- <ProjectSavedInVers>2025.021</ProjectSavedInVers>
+ <ProjectSavedInVers>2025.03</ProjectSavedInVers>
  <IDEVersion>20250201</IDEVersion>
  <MajorVersion>1</MajorVersion>
  <MinorVersion>0</MinorVersion>
@@ -46,6 +46,7 @@
  <CopyWindowsRedist>0</CopyWindowsRedist>
  <IncludePDB>0</IncludePDB>
  <WinUIFramework>0</WinUIFramework>
+ <NativeWinUISizes>0</NativeWinUISizes>
  <WindowsVersions></WindowsVersions>
  <WindowsRunAs>0</WindowsRunAs>
  <MacMinimumVersion></MacMinimumVersion>
@@ -878,9 +879,73 @@
  <ObjName>Build</ObjName>
  <ObjContainerID>1066266623</ObjContainerID>
 </block>
+<block type="Folder" ID="1551396863">
+ <ObjName>TreeViewKit</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="ColorAsset" ID="1237256191">
+ <ObjName>TreeSelectedTextColor</ObjName>
+ <ObjContainerID>1551396863</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>00000000</ColorLight>
+  <ColorDark>FFFFFF00</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="1992912895">
+ <ObjName>TreeRowEvenColor</ObjName>
+ <ObjContainerID>1551396863</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>FFFFFF00</ColorLight>
+  <ColorDark>2B2B2B00</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="1695471615">
+ <ObjName>TreeRowOddColor</ObjName>
+ <ObjContainerID>1551396863</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>F4F4F400</ColorLight>
+  <ColorDark>32323200</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="42258431">
+ <ObjName>TreeSelectedRowColor</ObjName>
+ <ObjContainerID>1551396863</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>C9BFE000</ColorLight>
+  <ColorDark>5A4F7300</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="1711785983">
+ <ObjName>TreeHoverOverRowColor</ObjName>
+ <ObjContainerID>1551396863</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>E6F2FF00</ColorLight>
+  <ColorDark>3A3A3A00</ColorDark>
+ </ColorRepresentation>
+</block>
+<block type="ColorAsset" ID="373432319">
+ <ObjName>TreeTextColor</ObjName>
+ <ObjContainerID>1551396863</ObjContainerID>
+ <ColorRepresentation>
+  <ColorType>1</ColorType>
+  <ColorPlatform>1</ColorPlatform>
+  <ColorLight>00000000</ColorLight>
+  <ColorDark>FFFFFF00</ColorDark>
+ </ColorRepresentation>
+</block>
 <block type="DesktopWindow" ID="1329225727">
  <ObjName>DesktopTreeView</ObjName>
- <ObjContainerID>0</ObjContainerID>
+ <ObjContainerID>1551396863</ObjContainerID>
  <IsClass>1</IsClass>
  <Superclass>DesktopContainer</Superclass>
  <ItemFlags>1</ItemFlags>
@@ -1500,123 +1565,16 @@
   <PropertyVal Name="Underline">False</PropertyVal>
   <PropertyVal Name="Visible">True</PropertyVal>
   <PropertyVal Name="Width">260</PropertyVal>
+  <PropertyVal Name="_ScrollOffset">0</PropertyVal>
   <PropertyVal Name="_ScrollWidth">-1</PropertyVal>
   <ControlIndex>0</ControlIndex>
   <Locked>0</Locked>
   <PartID>785805311</PartID>
  </Control>
 </block>
-<block type="Module" ID="1405976575">
- <ObjName>RowInfo</ObjName>
- <ObjContainerID>0</ObjContainerID>
- <IsClass>1</IsClass>
- <ItemFlags>1</ItemFlags>
- <IsInterface>0</IsInterface>
- <Compatibility></Compatibility>
- <Property>
-  <ItemName>Node</ItemName>
-  <Compatibility></Compatibility>
-  <Visible>1</Visible>
-  <PartID>1698330623</PartID>
-  <ItemSource>
-   <TextEncoding>134217984</TextEncoding>
-   <SourceLine>Node As TreeNode</SourceLine>
-   <SourceLine></SourceLine>
-  </ItemSource>
-  <TextEncoding>134217984</TextEncoding>
-  <ItemDeclaration>Node As TreeNode</ItemDeclaration>
-  <ItemFlags>0</ItemFlags>
-  <IsShared>0</IsShared>
- </Property>
- <Property>
-  <ItemName>Depth</ItemName>
-  <Compatibility></Compatibility>
-  <Visible>1</Visible>
-  <PartID>991668223</PartID>
-  <ItemSource>
-   <TextEncoding>134217984</TextEncoding>
-   <SourceLine>Depth As Integer</SourceLine>
-   <SourceLine></SourceLine>
-  </ItemSource>
-  <TextEncoding>134217984</TextEncoding>
-  <ItemDeclaration>Depth As Integer</ItemDeclaration>
-  <ItemFlags>0</ItemFlags>
-  <IsShared>0</IsShared>
- </Property>
- <Property>
-  <ItemName>Expanded</ItemName>
-  <Compatibility></Compatibility>
-  <Visible>1</Visible>
-  <PartID>1242322943</PartID>
-  <ItemSource>
-   <TextEncoding>134217984</TextEncoding>
-   <SourceLine>Expanded As Boolean</SourceLine>
-   <SourceLine></SourceLine>
-  </ItemSource>
-  <TextEncoding>134217984</TextEncoding>
-  <ItemDeclaration>Expanded As Boolean</ItemDeclaration>
-  <ItemFlags>0</ItemFlags>
-  <IsShared>0</IsShared>
- </Property>
- <Property>
-  <ItemName>HasChildren</ItemName>
-  <Compatibility></Compatibility>
-  <Visible>1</Visible>
-  <PartID>378994687</PartID>
-  <ItemSource>
-   <TextEncoding>134217984</TextEncoding>
-   <SourceLine>HasChildren As Boolean</SourceLine>
-   <SourceLine></SourceLine>
-  </ItemSource>
-  <TextEncoding>134217984</TextEncoding>
-  <ItemDeclaration>HasChildren As Boolean</ItemDeclaration>
-  <ItemFlags>0</ItemFlags>
-  <IsShared>0</IsShared>
- </Property>
- <ViewBehavior>
-  <ViewProperty>
-   <ObjName>Name</ObjName>
-   <Visible>1</Visible>
-   <PropertyGroup>ID</PropertyGroup>
-   <ItemType>String</ItemType>
-  </ViewProperty>
-  <ViewProperty>
-   <ObjName>Index</ObjName>
-   <Visible>1</Visible>
-   <PropertyGroup>ID</PropertyGroup>
-   <PropertyValue>-2147483648</PropertyValue>
-   <ItemType>Integer</ItemType>
-  </ViewProperty>
-  <ViewProperty>
-   <ObjName>Super</ObjName>
-   <Visible>1</Visible>
-   <PropertyGroup>ID</PropertyGroup>
-   <ItemType>String</ItemType>
-  </ViewProperty>
-  <ViewProperty>
-   <ObjName>Left</ObjName>
-   <Visible>1</Visible>
-   <PropertyGroup>Position</PropertyGroup>
-   <PropertyValue>0</PropertyValue>
-   <ItemType>Integer</ItemType>
-  </ViewProperty>
-  <ViewProperty>
-   <ObjName>Top</ObjName>
-   <Visible>1</Visible>
-   <PropertyGroup>Position</PropertyGroup>
-   <PropertyValue>0</PropertyValue>
-   <ItemType>Integer</ItemType>
-  </ViewProperty>
-  <ViewProperty>
-   <ObjName>Node</ObjName>
-   <PropertyGroup>Behavior</PropertyGroup>
-   <ItemType>Integer</ItemType>
-  </ViewProperty>
- </ViewBehavior>
-</block>
 <block type="Module" ID="193116159">
  <ObjName>TreeNode</ObjName>
- <ObjContainerID>0</ObjContainerID>
+ <ObjContainerID>1551396863</ObjContainerID>
  <IsClass>1</IsClass>
  <ItemFlags>1</ItemFlags>
  <IsInterface>0</IsInterface>
@@ -1758,11 +1716,21 @@
    <PropertyValue>0</PropertyValue>
    <ItemType>Integer</ItemType>
   </ViewProperty>
+  <ViewProperty>
+   <ObjName>Value</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Path</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
  </ViewBehavior>
 </block>
 <block type="Module" ID="1760063487">
  <ObjName>TreeNodeFactory</ObjName>
- <ObjContainerID>0</ObjContainerID>
+ <ObjContainerID>1551396863</ObjContainerID>
  <IsClass>0</IsClass>
  <ItemFlags>1</ItemFlags>
  <IsInterface>0</IsInterface>
@@ -1883,65 +1851,123 @@
   </ViewProperty>
  </ViewBehavior>
 </block>
-<block type="ColorAsset" ID="373432319">
- <ObjName>TreeTextColor</ObjName>
- <ObjContainerID>0</ObjContainerID>
- <ColorRepresentation>
-  <ColorType>1</ColorType>
-  <ColorPlatform>1</ColorPlatform>
-  <ColorLight>00000000</ColorLight>
-  <ColorDark>FFFFFF00</ColorDark>
- </ColorRepresentation>
-</block>
-<block type="ColorAsset" ID="1237256191">
- <ObjName>TreeSelectedTextColor</ObjName>
- <ObjContainerID>0</ObjContainerID>
- <ColorRepresentation>
-  <ColorType>1</ColorType>
-  <ColorPlatform>1</ColorPlatform>
-  <ColorLight>00000000</ColorLight>
-  <ColorDark>FFFFFF00</ColorDark>
- </ColorRepresentation>
-</block>
-<block type="ColorAsset" ID="1992912895">
- <ObjName>TreeRowEvenColor</ObjName>
- <ObjContainerID>0</ObjContainerID>
- <ColorRepresentation>
-  <ColorType>1</ColorType>
-  <ColorPlatform>1</ColorPlatform>
-  <ColorLight>FFFFFF00</ColorLight>
-  <ColorDark>2B2B2B00</ColorDark>
- </ColorRepresentation>
-</block>
-<block type="ColorAsset" ID="1695471615">
- <ObjName>TreeRowOddColor</ObjName>
- <ObjContainerID>0</ObjContainerID>
- <ColorRepresentation>
-  <ColorType>1</ColorType>
-  <ColorPlatform>1</ColorPlatform>
-  <ColorLight>F4F4F400</ColorLight>
-  <ColorDark>32323200</ColorDark>
- </ColorRepresentation>
-</block>
-<block type="ColorAsset" ID="42258431">
- <ObjName>TreeSelectedRowColor</ObjName>
- <ObjContainerID>0</ObjContainerID>
- <ColorRepresentation>
-  <ColorType>1</ColorType>
-  <ColorPlatform>1</ColorPlatform>
-  <ColorLight>C9BFE000</ColorLight>
-  <ColorDark>5A4F7300</ColorDark>
- </ColorRepresentation>
-</block>
-<block type="ColorAsset" ID="1711785983">
- <ObjName>TreeHoverOverRowColor</ObjName>
- <ObjContainerID>0</ObjContainerID>
- <ColorRepresentation>
-  <ColorType>1</ColorType>
-  <ColorPlatform>1</ColorPlatform>
-  <ColorLight>E6F2FF00</ColorLight>
-  <ColorDark>3A3A3A00</ColorDark>
- </ColorRepresentation>
+<block type="Module" ID="1405976575">
+ <ObjName>RowInfo</ObjName>
+ <ObjContainerID>1551396863</ObjContainerID>
+ <IsClass>1</IsClass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Property>
+  <ItemName>Node</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1698330623</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Node As TreeNode</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Node As TreeNode</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>Depth</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>991668223</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Depth As Integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Depth As Integer</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>Expanded</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1242322943</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Expanded As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>Expanded As Boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>HasChildren</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>378994687</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>HasChildren As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>HasChildren As Boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Depth</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Expanded</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasChildren</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
 </block>
 <block type="UIState" ID="0">
  <WarningPreferences>
@@ -1961,15 +1987,14 @@
   <ItemData>0</ItemData>
  </WarningPreferences>
  <StudioWindowState>
-  <EditBounds><Rect left="133" top="114" width="1496" height="860"/></EditBounds>
+  <EditBounds><Rect left="641" top="103" width="1542" height="860"/></EditBounds>
   <WindowMaximized>0</WindowMaximized>
   <Editors>
    <EditorCount>1</EditorCount>
    <Editor>
     <EditorIndex>0</EditorIndex>
-    <EditorLocation>DTTreeViewDemo.Controls.DesktopTreeView1</EditorLocation>
+    <EditorLocation></EditorLocation>
     <EditorPath></EditorPath>
-    <EditingPartID>1605220351</EditingPartID>
     <EditorPath></EditorPath>
    </Editor>
    <SelectedTab>0</SelectedTab>
